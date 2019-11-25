@@ -122,13 +122,13 @@ function changelanguage(lang){
     switch(lang){
         case 'az':location.href=window.location.href.substr(0,window.location.href.length-3)+lang;
         break;
-        case 'en':location.href="C:/Users/Aykhan/Desktop/Le%20Vauge/LeVauge-Main/en/index.html";
+        case 'en':location.href=window.location.href.substr(0,window.location.href.length-3)+lang;
         break;
-        case 'tr':location.href="C:/Users/Aykhan/Desktop/Le%20Vauge/LeVauge-Main/tr/index.html";
+        case 'tr':location.href=window.location.href.substr(0,window.location.href.length-3)+lang;
         break;
-        case 'ru':location.href="C:/Users/Aykhan/Desktop/Le%20Vauge/LeVauge-Main/ru/index.html";
+        case 'ru':location.href=window.location.href.substr(0,window.location.href.length-3)+lang;
         break;
-        default: location.href="C:/Users/Aykhan/Desktop/Le%20Vauge/LeVauge-Main/en/index.html";
+        default: location.href=window.location.href.substr(0,window.location.href.length-3)+'en';
         break; 
     }
     
