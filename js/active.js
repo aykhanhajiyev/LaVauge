@@ -120,7 +120,7 @@
 
 function changelanguage(lang){
     switch(lang){
-        case 'az':location.href="C:/Users/Aykhan/Desktop/Le%20Vauge/LeVauge-Main/az/index.html";
+        case 'az':location.href=window.location.href.substr(0,window.location.href.length-3)+lang;
         break;
         case 'en':location.href="C:/Users/Aykhan/Desktop/Le%20Vauge/LeVauge-Main/en/index.html";
         break;
