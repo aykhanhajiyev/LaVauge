@@ -117,19 +117,3 @@
     });
 
 })(jQuery);
-
-function changelanguage(lang){
-    switch(lang){
-        case 'az':location.href=window.location.href.substr(0,window.location.href.length-3)+lang;
-        break;
-        case 'en':location.href=window.location.href.substr(0,window.location.href.length-3)+lang;
-        break;
-        case 'tr':location.href=window.location.href.substr(0,window.location.href.length-3)+lang;
-        break;
-        case 'ru':location.href=window.location.href.substr(0,window.location.href.length-3)+lang;
-        break;
-        default: location.href=window.location.href.substr(0,window.location.href.length-3)+'en';
-        break; 
-    }
-    
-}
